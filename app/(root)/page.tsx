@@ -3,7 +3,7 @@ import ROUTES from "@/constants/routes";
 
 const Home = async () => {
   const session = await auth();
-  console.log("session:", session);
+  // console.log("session:", session);
   return (
     <>
       <h1 className="h1-bold">Welcome to the world of Next.js</h1>
